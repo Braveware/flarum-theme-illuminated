@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ArchLinux\\Theme\\": "src/"
+            "Illuminated\\Theme\\": "src/"
         }
     },
     "extra": {
