@@ -1,6 +1,6 @@
 <?php
 
-use Illuminted\Theme\IllumiantedTheme;
+use Illuminted\Theme\IlluminatedTheme;
 use Flarum\Extend;
 
 return [
