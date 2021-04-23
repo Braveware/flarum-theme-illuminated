@@ -20,7 +20,7 @@ class IlluminatedTheme
     public function __invoke(Document $document): void
     {
         $forumApiDocument = $document->getForumApiDocument();
-        $document->head[] = '<link rel="shortcut icon" href="/assets/extensions/illuminated/favicon.ico" />';
+        $document->head[] = '<link rel="shortcut icon" href="/assets/extensions/braveware-theme-illuminated/favicon.ico" />';
 
         $forumApiDocument['data']['attributes']['headerHtml'] = $this->createHeader();
         $forumApiDocument['data']['attributes']['footerHtml'] = $this->createFooter();

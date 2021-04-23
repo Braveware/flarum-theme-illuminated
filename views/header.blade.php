@@ -1,7 +1,7 @@
-<div id="archnavbar" class="anb-forum">
-    <div id="archnavbarlogo"><h1><a href="@isset($home){{ $home }}@else/@endif">Arch Linux</a></h1></div>
-    <div id="archnavbarmenu">
-        <ul id="archnavbarlist">
+<div id="illuminatedbar" class="anb-forum">
+    <div id="illuminatedbarlogo"><h1><a href="@isset($home){{ $home }}@else/@endif">Arch Linux</a></h1></div>
+    <div id="illuminatedbarmenu">
+        <ul id="illuminatedbarlist">
             @isset ($navbar)
                 @foreach ($navbar as $name => $url)
                     <li id="anb-{{ strtolower($name) }}"
